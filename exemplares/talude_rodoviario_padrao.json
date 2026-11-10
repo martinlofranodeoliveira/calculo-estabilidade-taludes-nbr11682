@@ -1,0 +1,27 @@
+{
+  "nome_talude": "Talude de Corte Rodoviário - Estaca 142+00",
+  "descricao": "Corte em encosta natural de solo residual com berma intermediária e lençol freático rebaixado.",
+  "nivel_seguranca_nbr11682": "ALTO",
+  "perfil_terreno": [
+    {"x_mm": 0, "y_mm": 10000},
+    {"x_mm": 15000, "y_mm": 10000},
+    {"x_mm": 30000, "y_mm": 20000},
+    {"x_mm": 34000, "y_mm": 20000},
+    {"x_mm": 49000, "y_mm": 30000},
+    {"x_mm": 65000, "y_mm": 31000}
+  ],
+  "circulo_tentativa": {
+    "centro_x_mm": 28000,
+    "centro_y_mm": 42000,
+    "raio_mm": 33000
+  },
+  "solo": {
+    "nome_camada": "Solo residual de gnaisse (argila siltosa)",
+    "peso_especifico_n_m3": 18500,
+    "coesao_efetiva_pa": 22000,
+    "angulo_atrito_graus": 26
+  },
+  "numero_fatias": 16,
+  "nivel_dagua_y_mm": 12000,
+  "sobrecarga_crista_pa": 0
+}

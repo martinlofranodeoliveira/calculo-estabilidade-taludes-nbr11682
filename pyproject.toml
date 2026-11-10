@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calculo-estabilidade-taludes-nbr11682"
+version = "1.0.0"
+description = "Cálculo determinístico de estabilidade de taludes e encostas (ABNT NBR 11682) via métodos de Fellenius e Bishop Simplificado em frações e grandezas inteiras exatas. Zero dependências, Python 3.11+, MIT — LOFRANO TECNOLOGIA."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "LOFRANO TECNOLOGIA" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Office/Business",
+]
+dependencies = []
+
+[project.scripts]
+estabilidade-taludes = "estabilidade_taludes.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

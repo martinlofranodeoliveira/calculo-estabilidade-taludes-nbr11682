@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+    <defs>
+        <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#090d16" />
+            <stop offset="100%" stop-color="#0f172a" />
+        </linearGradient>
+        <linearGradient id="card-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#1e293b" />
+            <stop offset="100%" stop-color="#111827" />
+        </linearGradient>
+        <linearGradient id="solo-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#334155" stop-opacity="0.8" />
+            <stop offset="100%" stop-color="#1e293b" stop-opacity="0.9" />
+        </linearGradient>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1" stroke-opacity="0.5"/>
+        </pattern>
+        <clipPath id="viewport-clip">
+            <rect x="50" y="170" width="830" height="580" rx="8" />
+        </clipPath>
+    </defs>
+
+    <!-- Fundo Principal -->
+    <rect width="1440" height="900" fill="url(#bg-grad)" />
+    <rect width="1440" height="900" fill="url(#grid)" />
+
+    <!-- Barra de Título Superior -->
+    <rect x="30" y="24" width="1380" height="110" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1" />
+
+    <text x="56" y="60" fill="#94a3b8" font-size="13" font-weight="700" letter-spacing="1.5" font-family="sans-serif">
+        LOFRANO TECNOLOGIA • ENGENHARIA GEOTÉCNICA COMPUTACIONAL DETERMINÍSTICA
+    </text>
+    <text x="56" y="96" fill="#f8fafc" font-size="26" font-weight="800" font-family="sans-serif">
+        Talude de Corte Rodoviário - Estaca 142+00 — Estabilidade de Taludes e Encostas (NBR 11682)
+    </text>
+
+    <!-- Badges Superiores de Status -->
+    <rect x="1080" y="44" width="300" height="68" rx="8" fill="rgba(16, 185, 129, 0.18)" stroke="#10b981" stroke-width="1.5" />
+    <text x="1100" y="70" fill="#10b981" font-size="12" font-weight="700" letter-spacing="1" font-family="sans-serif">
+        SITUAÇÃO REGULAMENTAR
+    </text>
+    <text x="1100" y="96" fill="#f8fafc" font-size="18" font-weight="800" font-family="sans-serif">
+        CONFORME NBR 11682
+    </text>
+
+    <!-- Painel do Desenho Topográfico Geotécnico -->
+    <rect x="30" y="150" width="870" height="620" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1" />
+    <text x="50" y="180" fill="#38bdf8" font-size="14" font-weight="700" letter-spacing="0.5" font-family="sans-serif">
+        SEÇÃO TRANSVERSAL E SUPERFÍCIE DE RUPTURA HIPOTÉTICA
+    </text>
+
+    <g clip-path="url(#viewport-clip)">
+        <!-- Maciço Terroso (Sólido) -->
+        <polygon points="168,750 168,688 316,688 465,541 504,541 652,395 810,380 810,750" fill="url(#solo-grad)" />
+
+        <!-- Lamelas / Fatias Discretizadas -->
+        <path d="M 333 658 L 359 658 L 359 680 L 333 680 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 359 632 L 385 632 L 385 690 L 359 690 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 385 606 L 412 606 L 412 697 L 385 697 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 412 580 L 438 580 L 438 701 L 412 701 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 438 555 L 464 555 L 464 702 L 438 702 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 464 541 L 490 541 L 490 700 L 464 700 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 490 541 L 516 541 L 516 694 L 490 694 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 516 516 L 542 516 L 542 686 L 516 686 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 542 491 L 568 491 L 568 674 L 542 674 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 568 465 L 594 465 L 594 658 L 568 658 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 594 439 L 620 439 L 620 638 L 594 638 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 620 413 L 646 413 L 646 613 L 620 613 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 646 394 L 673 394 L 673 583 L 646 583 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 673 392 L 699 392 L 699 545 L 673 545 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 699 389 L 725 389 L 725 496 L 699 496 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/><path d="M 725 387 L 751 387 L 751 431 L 725 431 Z" fill="#0284c7" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+
+        <!-- Superfície do Terreno (Linha Topográfica) -->
+        <polyline points="168,688 316,688 465,541 504,541 652,395 810,380" fill="none" stroke="#22c55e" stroke-width="3.5" stroke-linejoin="round" />
+
+        <!-- Círculo de Ruptura Geotécnico -->
+        <circle cx="445" cy="219" r="326" fill="none" stroke="#f43f5e" stroke-width="2.5" stroke-dasharray="8,4" />
+
+        <!-- Centro de Rotação O(X, Y) -->
+        <circle cx="445" cy="219" r="5" fill="#f43f5e" />
+        <line x1="435" y1="219" x2="455" y2="219" stroke="#f43f5e" stroke-width="2" />
+        <line x1="445" y1="209" x2="445" y2="229" stroke="#f43f5e" stroke-width="2" />
+        <text x="457" y="224" fill="#fda4af" font-size="12" font-weight="600" font-family="sans-serif">
+            Centro O (28,00 m, 42,00 m)
+        </text>
+
+        
+        <!-- Nível Freático -->
+        <line x1="50" y1="658" x2="880" y2="658"
+              stroke="#38bdf8" stroke-width="2" stroke-dasharray="6,4" />
+        <text x="60" y="650" fill="#38bdf8" font-size="12" font-weight="600" font-family="sans-serif">
+            Nível Freático (N.A. = 12,00 m)
+        </text>
+        
+    </g>
+
+    <!-- Legenda no Rodapé do Gráfico -->
+    <g transform="translate(50, 742)">
+        <line x1="0" y1="0" x2="25" y2="0" stroke="#22c55e" stroke-width="3" />
+        <text x="32" y="4" fill="#94a3b8" font-size="11" font-family="sans-serif">Perfil Terreno</text>
+
+        <line x1="130" y1="0" x2="155" y2="0" stroke="#f43f5e" stroke-width="2" stroke-dasharray="4,2" />
+        <text x="162" y="4" fill="#94a3b8" font-size="11" font-family="sans-serif">Superfície Ruptura</text>
+
+        <rect x="290" y="-8" width="16" height="16" fill="#0284c7" fill-opacity="0.3" stroke="#38bdf8" stroke-width="1" />
+        <text x="314" y="4" fill="#94a3b8" font-size="11" font-family="sans-serif">Lamelas (16)</text>
+    </g>
+
+    <!-- Painel Lateral Direito: Resultados e Coeficientes -->
+    <!-- Card 1: Fatores de Segurança -->
+    <rect x="920" y="150" width="490" height="240" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1" />
+    <text x="944" y="184" fill="#38bdf8" font-size="15" font-weight="700" letter-spacing="0.5" font-family="sans-serif">
+        FATORES DE SEGURANÇA (FS)
+    </text>
+
+    <!-- Bishop -->
+    <rect x="944" y="204" width="215" height="100" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+    <text x="960" y="228" fill="#94a3b8" font-size="11" font-weight="600" font-family="sans-serif">BISHOP SIMPLIFICADO</text>
+    <text x="960" y="268" fill="#f8fafc" font-size="32" font-weight="800" font-family="sans-serif">1,708</text>
+    <text x="960" y="292" fill="#10b981" font-size="11" font-weight="700" font-family="sans-serif">Iterações: 5</text>
+
+    <!-- Fellenius -->
+    <rect x="1175" y="204" width="215" height="100" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1" />
+    <text x="1191" y="228" fill="#94a3b8" font-size="11" font-weight="600" font-family="sans-serif">FELLENIUS ORDINÁRIO</text>
+    <text x="1191" y="268" fill="#cbd5e1" font-size="32" font-weight="800" font-family="sans-serif">1,549</text>
+    <text x="1191" y="292" fill="#94a3b8" font-size="11" font-weight="600" font-family="sans-serif">Método Suéco</text>
+
+    <text x="944" y="336" fill="#94a3b8" font-size="12" font-family="sans-serif">
+        Nível de Segurança: <tspan fill="#f8fafc" font-weight="700">ALTO</tspan> | FS Mínimo NBR 11682: <tspan fill="#f8fafc" font-weight="700">1,500</tspan>
+    </text>
+    <text x="944" y="360" fill="#10b981" font-size="13" font-weight="700" font-family="sans-serif">
+        ESTÁVEL (APROVADO PELA NBR 11682)
+    </text>
+
+    <!-- Card 2: Balanço de Forças e Momentos -->
+    <rect x="920" y="410" width="490" height="190" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1" />
+    <text x="944" y="442" fill="#38bdf8" font-size="15" font-weight="700" letter-spacing="0.5" font-family="sans-serif">
+        BALANÇO DE ESFORÇOS DO MACIÇO
+    </text>
+
+    <g transform="translate(944, 465)">
+        <text x="0" y="15" fill="#94a3b8" font-size="13" font-family="sans-serif">Peso Total da Massa Deslizante:</text>
+        <text x="440" y="15" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">7300,28 kN</text>
+
+        <text x="0" y="45" fill="#94a3b8" font-size="13" font-family="sans-serif">Momento Atuante Desestabilizador (Mat):</text>
+        <text x="440" y="45" fill="#f43f5e" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">84,996,945 N·m</text>
+
+        <text x="0" y="75" fill="#94a3b8" font-size="13" font-family="sans-serif">Momento Resistente (Mres - Bishop):</text>
+        <text x="440" y="75" fill="#10b981" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">145,138,072 N·m</text>
+
+        <text x="0" y="105" fill="#94a3b8" font-size="13" font-family="sans-serif">Momento Resistente (Mres - Fellenius):</text>
+        <text x="440" y="105" fill="#38bdf8" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">131,654,688 N·m</text>
+    </g>
+
+    <!-- Card 3: Parâmetros Geotécnicos do Solo -->
+    <rect x="920" y="620" width="490" height="150" rx="12" fill="url(#card-grad)" stroke="#334155" stroke-width="1" />
+    <text x="944" y="652" fill="#38bdf8" font-size="15" font-weight="700" letter-spacing="0.5" font-family="sans-serif">
+        PARÂMETROS GEOTÉCNICOS (MOHR-COULOMB)
+    </text>
+
+    <g transform="translate(944, 675)">
+        <text x="0" y="15" fill="#94a3b8" font-size="13" font-family="sans-serif">Solo / Formação:</text>
+        <text x="440" y="15" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">Solo residual de gnaisse (argila siltosa)</text>
+
+        <text x="0" y="42" fill="#94a3b8" font-size="13" font-family="sans-serif">Coesão Efetiva (c'):</text>
+        <text x="440" y="42" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">22,00 kPa</text>
+
+        <text x="0" y="69" fill="#94a3b8" font-size="13" font-family="sans-serif">Ângulo de Atrito Interno (φ'):</text>
+        <text x="440" y="69" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">26°</text>
+
+        <text x="0" y="96" fill="#94a3b8" font-size="13" font-family="sans-serif">Peso Específico Natural (γ):</text>
+        <text x="440" y="96" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="end" font-family="sans-serif">18 kN/m³</text>
+    </g>
+
+    <!-- Barra de Rodapé -->
+    <rect x="30" y="790" width="1380" height="80" rx="10" fill="url(#card-grad)" stroke="#334155" stroke-width="1" />
+    <text x="56" y="826" fill="#f8fafc" font-size="13" font-weight="700" font-family="sans-serif">
+        CONFORMIDADE TOTAL ABNT NBR 11682:2009 — ESTABILIDADE DE ENCOSTAS
+    </text>
+    <text x="56" y="848" fill="#94a3b8" font-size="11" font-family="sans-serif">
+        Cálculo determinístico em frações racionais exatas (Zero Float). Fellenius &amp; Bishop Simplificado. LOFRANO TECNOLOGIA.
+    </text>
+    <text x="1380" y="836" fill="#64748b" font-size="12" text-anchor="end" font-family="sans-serif">
+        Raio: 33,00 m | Fatias: 16 | Resolução: 1440x900
+    </text>
+</svg>
